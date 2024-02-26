@@ -11,6 +11,18 @@ quetion_Answer = [
     ]
 
 def play_quiz(quetion_Answer):
+    """
+        This function takes a list of dictionaries as input, where each dictionary represents a question and its answer.
+        The function prompts the user with each question, checks if the user's input matches the correct answer, and updates the score accordingly.
+        At the end of the quiz, the function prints the score and grade.
+
+        Parameters:
+        quetion_Answer (list): A list of dictionaries, where each dictionary represents a question and its answer.
+
+        Returns:
+        None
+
+    """
     score = 0
     for item in quetion_Answer:
         question = item['question']

@@ -1,5 +1,17 @@
 import random
 def number_guessing():
+    """
+        This function implements the "Number Guessing Game" where the user is prompted to guess a randomly generated number within a certain number of attempts.
+
+        Parameters:
+        -----------
+        None
+
+        Returns:
+        --------
+        None
+
+    """
     secret_number = random.randint(1,100)
     attempts = 0
     max_attempts = 10
